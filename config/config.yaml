@@ -1,0 +1,15 @@
+app:
+  name: 'Homework_31'
+  version: '1.0.0'
+
+http:
+  host: 'localhost'
+  port: '8080'
+
+postgres:
+  host: 'localhost'
+  port: '5432'
+  user: 'postgres'
+  password: 'Andrey125%'
+  dbname: 'postgres'
+  sslmode: 'disable'
