@@ -3,8 +3,8 @@
 chi + postgre
 
 Methods:
-/getAllUsers
-/createUser
+/getAllUsers \n
+/createUser \n
 /makeFriends
 /user"
 /friends/{user_id}
