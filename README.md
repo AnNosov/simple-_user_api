@@ -2,10 +2,10 @@
 
 chi + postgre
 
-Methods:
-/getAllUsers \n
-/createUser \n
-/makeFriends
-/user"
-/friends/{user_id}
-/{user_id}
+Methods:  
+/getAllUsers  
+/createUser  
+/makeFriends  
+/user  
+/friends/{user_id}  
+/{user_id}  
