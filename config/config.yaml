@@ -1,5 +1,5 @@
 app:
-  name: 'Homework_31'
+  name: 'simple_user_api'
   version: '1.0.0'
 
 http:
@@ -10,6 +10,6 @@ postgres:
   host: 'localhost'
   port: '5432'
   user: 'postgres'
-  password: 'Andrey125%'
+  password: 'xxxxxxx'
   dbname: 'postgres'
   sslmode: 'disable'
