@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 	"os"
-	"path"
+	"path/filepath"
 
 	"gopkg.in/yaml.v2"
 )
@@ -30,7 +30,7 @@ type Postgres struct {
 func NewConfig() (*Config, error) {
 	cfg := &Config{}
 
-	content, err := os.ReadFile(path.Join("./config", "config.yaml"))
+	content, err := os.ReadFile(filepath.Join("config", "config.yaml"))
 	if err != nil {
 		return nil, fmt.Errorf("config error: %w", err)
 	}
